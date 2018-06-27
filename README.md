@@ -11,3 +11,7 @@ Why special emphasys to the above ingredients? Well, because :-). Meaning, becau
 Should you like to do so, submit your exercises / comments / questions to Eidon@tutanota.com -- I don't promise that I will answer _soon_, but I do promise I will answer :-)
 
 Enjoy!
+
+# Clarifications
+
+- Note: Aim of this course is not to introduce OOP; only, to explain that one can use C in a "different", possibly sounder way. C is still used in several embedded products; some of these products deliver safety-critical services! I thought it was important to tell how I deal with managing complexity in C.
