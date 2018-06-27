@@ -1,5 +1,5 @@
 # My Own Course About C!
-This is a course about programming in the C programming language. It is _my own_ way of teaching C, meaning that it basically tells how _I_ program in C. I tried to explain this "from the very beginning", explaining some of the basic ideas too, though it will benefit from some previous experience with using a computer. In particular I assume people know what a "memory" or a "CPU" is. In one place, I assume someone knows what a _register_ is actually :-)
+This is a course about programming in the C programming language. It is _my own_ way of teaching C, meaning that it basically tells how _I_ program in C. I tried to explain this "from the very beginning", explaining some of the basic ideas too, though it will benefit from some previous experience with using a computer. In particular I assume people to have some idea of what a "memory" or a "CPU" is. In one place, I assume someone knows what a _register_ is actually :-)
 
 The course has two major "special" ingredients:
 
