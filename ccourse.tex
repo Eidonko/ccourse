@@ -1,0 +1,174 @@
+% Beginning of file ccourse.tex
+% Copyright 2018 by Eidon (Eidon@tutanota.com)
+%
+% Style based on beamer example,
+% copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\documentclass[10pt]{beamer}
+\def\insertversion{1.0}
+
+%%%%%%%%%%%%%%%%%%%
+\usetheme{Boadilla}
+%%%%%%%%%%%%%%%%%%%
+
+\usepackage{cprog}
+%\usepackage{wasysym} % to use \smiley ;)
+\usepackage{marvosym} % to use \Smiley ;)
+
+% user definitions
+\newcommand{\ticket}{{\code{ticket.sty}}}
+\newcommand{\bs}{{\mtt\\}}
+\def\pcpc{{\tt \%\%}}
+\def\endmarker{{\sl endmarker\/}}
+\def\pre{\mbox{ $<_{\rm prec}$ }}
+\def\AND{\mbox{\&\&}}
+\def\Char{\mbox{\tt char }\index{\tt char}}
+\def\Int{\mbox{\tt int }\index{\tt int}}
+\def\Float{\mbox{\tt float }\index{\tt float}}
+\def\Short{\mbox{\tt short }\index{\tt short}}
+\def\Double{\mbox{\tt double }\index{\tt double}}
+\def\Long{\mbox{\tt long }\index{\tt long}}
+
+\def\UNS{\mbox{\tt unsigned }\index{\tt unsigned}}
+\def\REG{\mbox{\tt register }}
+\def\EOF{\mbox{\tt EOF}\index{\tt EOF}}
+\def\marg#1{\parbox[b]{1.3in}{\bf #1}}
+
+\def\lat{{\sl lat\/}}
+\def\shift{{\sl shift\/}}
+\def\reduce{{\sl reduce\/}}
+\def\accept{{\sl accept\/}}
+\def\error{{\sl error\/}}
+\def\goto{{\sl goto\/}}
+\def\edf{\hbox{$\stackrel{\hbox{\tiny def}}{=}$}}
+\def\smallcite#1{{\small\cite{#1}}}
+\def\enc#1{}%({\em Enc.#1\/})}
+\def\UNDSCR{\_}
+\newcommand{\AS}{\hbox{$\mathcal A\mathcal S$}}
+\newcommand{\ATs}{\hbox{$\mathcal A\mathcal T\hbox{'s}$}}
+
+
+\graphicspath{{defaultimages/}{images/}}
+
+\input{beamerexample-lecture-style.tex}
+
+%\lecture[1]{A Short Course on\\C Language Programming}{lecture-text}
+\lecture{C Language Programming}{A Short Course on C Language Programming}
+
+\subtitle{A short course about C (actually about Lex and YACC too \Smiley)}
+
+\date{27 June 2018}
+
+
+\begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+%\input{beamerexample-lecture-body.tex}
+\input{b-adv-c1.tex}
+\input{b-adv-c2.tex}
+\end{document}
+\documentclass{article}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue
+           ]{hyperref}
+\usepackage{float}
+\usepackage{alltt}
+\begin{document}
+%\centerline{\includegraphics[width=0.84\textwidth]{fname.png}}
+
+
+\end{document}
+
+%%{{{ CWEB
+\begin{frame}[fragile]{CWEB and ``literate programming''}
+``Literate programming is the combination of documentation and source
+together in a fashion suited for reading by human beings [...]
+
+
+\vspace{20pt}
+
+In general, literate programs combine source and documentation
+in a single file. Literate programming tools then parse the file
+to produce either readable documentation or compilable source.
+
+
+\vspace{20pt}
+
+The WEB style of literate programming was created by D.E. Knuth during the development of
+his \TeX{} typsetting software.
+
+\end{frame}
+\begin{frame}[fragile]{CWEB and ``literate programming''}
+
+The WEB: ``The philosophy behind WEB is that an experienced system programmer,
+who wants to provide the best possible documentation
+of his or her software products, needs two things simultaneously:
+a language like \TeX{} for formatting, and a language like C
+for programming.
+
+
+\vspace{20pt}
+
+Neither type of language can provide the best
+documentation by itself; but when both are appropriately
+combined, we obtain a system that is much more useful than either language separately.
+
+\end{frame}
+\begin{frame}[fragile]{CWEB and ``literate programming''}
+The structure of a software program may be thought of as a web
+that is made up of many interconnected pieces.
+
+
+\vspace{20pt}
+
+To document
+such a program we want to explain each individual part of the web
+and how it relates to its neighbours.
+
+
+\vspace{20pt}
+
+The typographic tools
+provided by \TeX{} give us an opportunity to explain the local
+structure of each part by making that structure visible, and the
+programming tools provided by languages such as C or Fortran make
+it possible for us to specify the algorithms formally and
+unambigously.
+
+
+\vspace{20pt}
+
+\end{frame}
+\begin{frame}[fragile]{CWEB and ``literate programming''}
+By combining the two, we can develop a style
+of programming that maximizes our ability to perceive the
+structure of a complex piece of software, and at the same time
+the documented programs can be mechanically translated into a
+working software system that matches the documentation.''
+
+
+\vspace{20pt}
+
+Examples of CWEB programs can be found e.g. in
+\url{https://github.com/Eidonko/Permutation-numbers}.
+\end{frame}
+%}}}
+
+% End of file ccourse.tex

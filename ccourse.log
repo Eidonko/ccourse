@@ -1,0 +1,5194 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Cygwin) (preloaded format=pdflatex 2018.5.24)  27 JUN 2018 14:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ccourse.tex
+(./ccourse.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count85
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count112
+\pgfsyssoftpath@bigbuffer@items=\count113
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count114
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count115
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count116
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen157
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen161
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count117
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count118
+\XC@countmixins=\count119
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count122
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `implicit' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count123
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count124
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count125
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+
+(/usr/share/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count128
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count129
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count137
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen168
+\c@framenumber=\count138
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count139
+\beamer@autobreaklastheight=\dimen169
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box44
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box45
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
+)
+\beamer@blockheadheight=\dimen177
+))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count140
+\c@table=\count141
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen178
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen179
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen180
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count142
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count143
+\leftroot@=\count144
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count145
+\DOTSCASE@=\count146
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
+\dotsspace@=\muskip11
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
+\tag@help=\toks33
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
+\andhelp@=\toks34
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count154
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
+)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+(./cprog.sty
+\cprogbaselineskip=\dimen190
+\cprogindent=\dimen191
+\cprogwidth=\dimen192
+\beforecprogskip=\skip57
+\aftercprogskip=\skip58
+\cprogunclosedstr=\toks43
+) (/usr/share/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+(./beamerexample-lecture-style.tex
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/04/06 v1.3b Input encoding file
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count155
+\pgfplotmarksize=\dimen197
+)
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen256
+\tikz@lastysaved=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count156
+\tikznumberofchildren=\count157
+\tikznumberofcurrentchild=\count158
+\tikz@fig@count=\count159
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count160
+\pgfmatrixcurrentcolumn=\count161
+\pgf@matrix@numberofcolumns=\count162
+)
+\tikz@expandcount=\count163
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box58
+\extrarowheight=\dimen261
+\NC@list=\toks48
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box59
+)
+\everycr=\toks49
+\minrowclearance=\skip61
+)
+(/usr/share/texmf-dist/tex/latex/yfonts/yfonts.sty
+Package: yfonts 2003/01/08 v1.3 (WaS)
+Now handling font encoding LY ...
+... no UTF-8 mapping file for font encoding LY
+Now handling font encoding LYG ...
+... no UTF-8 mapping file for font encoding LYG
+LaTeX Info: Composite with undeclared \" in encoding LYG on input line 58.
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\insertlecture' on input line 45.
+
+(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
+\beamer@sidebarwidth=\dimen262
+\beamer@headheight=\dimen263
+LaTeX Font Info:    Try loading font information for T1+phv on input line 17.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+))
+(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemesidebartab.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty)
+(/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemestructurebold.sty)
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count164
+\lst@gtempboxa=\box60
+\lst@token=\toks50
+\lst@length=\count165
+\lst@currlwidth=\dimen264
+\lst@column=\count166
+\lst@pos=\count167
+\lst@lostspace=\dimen265
+\lst@width=\dimen266
+\lst@newlines=\count168
+\lst@lineno=\count169
+\lst@maxwidth=\dimen267
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count170
+\lst@skipnumbers=\count171
+\lst@framebox=\box61
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+\mytempbox=\box62
+\mytempdimen=\dimen268
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\insertlecture' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\char' on input line 70.
+
+(./ccourse.aux)
+\openout1 = `ccourse.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(14.22636pt, 278.83713pt, 71.13187pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=278.83713pt
+* \textheight=244.6939pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=14.22636pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count172
+\scratchdimen=\dimen269
+\scratchbox=\box63
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen270
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks52
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring OFF on input line 70.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count178
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+ (./ccourse.out) (./ccourse.out)
+\@outlinefile=\write5
+\openout5 = `ccourse.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 70.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 70.
+
+(/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
+.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-
+English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-environment-dictionary-E
+nglish.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-months-dictionary-Englis
+h.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-Engli
+sh.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
+sh.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count179
+ (./ccourse.nav)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 74.
+ (/usr/share/texmf-dist/tex/latex/marvosym/umvs.fd)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 74.
+<ccourse-logo.pdf, id=15, 1116.17pt x 1417.295pt>
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 74.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./ccourse-logo.pdf>]
+(./b-adv-c1.tex
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 4.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 9.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [2
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 23.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [3
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 43.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [4
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 53.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [5
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 67.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [6
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 95.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[7
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 108.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [8
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 122.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [9
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 137.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [10
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 160.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [11
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 176.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [12
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+\T1/phv/m/n/10 (typeless lan-
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 4--4
+\T1/phv/m/n/10 by K. Thomp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/phv/m/n/10 (non-typeless,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+\T1/phv/m/n/10 non-strongly-
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 202.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [13
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 222.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [14
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 235.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [15
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 253.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [16
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 2.
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 5.
+
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 18--18
+[]           \T1/pcr/m/n/10 main()    /* prints "hello world." */[] 
+ []
+
+
+Overfull \hbox (33.16287pt too wide) in paragraph at lines 18--18
+[]           \T1/pcr/m/n/10 {         /* and goes to the next line */[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 274.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [17
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 287.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [18
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (39.16287pt too wide) in paragraph at lines 20--20
+[]\T1/pcr/m/n/10 /* The famous Fahrenheit to Celsius conversion :-) */[] 
+ []
+
+
+Overfull \hbox (21.16287pt too wide) in paragraph at lines 20--20
+[]           \T1/pcr/m/n/10 printf("%4.0f %6.1f\n", fahr, celsius);[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 311.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [19
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 329.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [20
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 363.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [21
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 381.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [22
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 391.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [23
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 410.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [24
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 423.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [25
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 449.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[26
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 462.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [27
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 494.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [28
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 521.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [29
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 537.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [30
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 573.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [31
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 592.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [32
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 609.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[33
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 629.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [34
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 659.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [35
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 691.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [36
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 719.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [37
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 747.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [38
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 765.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [39
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 782.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[40
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 796.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [41
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 810.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [42
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 830.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [43
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 852.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [44
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 867.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [45
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 879.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [46
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 913.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[47
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 924.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [48
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [49
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 985.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [50
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1010.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [51
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (45.16287pt too wide) in paragraph at lines 23--23
+[]      \T1/pcr/m/n/10 for (n=0; *x; x++)  /* hence, can be modified */[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1039.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [52
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1069.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [53
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1088.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [54
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1116.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [55
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1146.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [56
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1163.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [57
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1195.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [58
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1226.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[59
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1247.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [60
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (27.16287pt too wide) in paragraph at lines 12--12
+[]           \T1/pcr/m/n/10 celsius = ( (double)5 /9) * (fahr-32.0);[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1281.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [61
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1307.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [62
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1318.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [63
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1338.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [64
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1349.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [65
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1367.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [66
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1392.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [67
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 12--12
+[]    \T1/pcr/m/n/10 return((x >> (start+1-num)) & ~(~0 << num));[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1432.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [68
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+Overfull \vbox (52.453pt too high) detected at line 1481
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1481.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+[69
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1526.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [70
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (15.16287pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/10 int main() { int n;           int main() { int n;[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1548.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [71
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1567.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [72
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1588.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [73
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1618.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [74
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1628.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [75
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (45.16287pt too wide) in paragraph at lines 13--13
+[] \T1/pcr/m/n/10 { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},[] 
+ []
+
+
+Overfull \hbox (57.16287pt too wide) in paragraph at lines 13--13
+[] \T1/pcr/m/n/10 { 0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31} };[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1652.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [76
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1670.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [77
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1689.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [78
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1715.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [79
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1738.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [80
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1753.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [81
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 17--17
+[]  \T1/pcr/m/n/10 while (pa < pl) {         for (i=0; i<N; i++)[] 
+ []
+
+
+Overfull \hbox (33.16287pt too wide) in paragraph at lines 17--17
+[]     \T1/pcr/m/n/10 *pa = 0;                  for (j=0; j<M; j++) {[] 
+ []
+
+
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 17--17
+[]     \T1/pcr/m/n/10 *pa = c;                    c = a[i][j] +1;[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1773.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [82
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1783.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [83
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1799.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [84
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+Overfull \vbox (0.453pt too high) detected at line 1835
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1835.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+[85
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (15.16287pt too wide) in paragraph at lines 18--18
+[] \T1/pcr/m/n/10 return ((n < 1 || n > 12)? names[0] : names[n] ;[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1858.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [86
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (21.16287pt too wide) in paragraph at lines 19--19
+[]      \T1/pcr/m/n/10 printf("%s%c", *++argv, (argc>1)?' ':'\n' );[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1892.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [87
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1916.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [88
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1945.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [89
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1981.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [90
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1995.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [91
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2010.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [92
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2032.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [93
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2072.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+[94
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2105.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [95
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2131.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [96
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2145.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [97
+
+]
+\openout4 = `ccourse.vrb'.
+
+
+(./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2157.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [98
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2182.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+ [99
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2193.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .100 
+ []
+
+[100
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2223.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .101 
+ []
+
+[101
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2247.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .102 
+ []
+
+[102
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2274.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .103 
+ []
+
+[103
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2291.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .104 
+ []
+
+[104
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2309.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .105 
+ []
+
+[105
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2319.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .106 
+ []
+
+[106
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2340.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .107 
+ []
+
+[107
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2349.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .108 
+ []
+
+[108
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2369.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .109 
+ []
+
+[109
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2385.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .110 
+ []
+
+[110
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2405.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .111 
+ []
+
+[111
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2420.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .112 
+ []
+
+[112
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2432.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .113 
+ []
+
+[113
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2448.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .114 
+ []
+
+[114
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2483.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .115 
+ []
+
+[115
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2499.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .116 
+ []
+
+[116
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2519.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .117 
+ []
+
+[117
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2534.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .118 
+ []
+
+[118
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2549.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .119 
+ []
+
+[119
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (12.76254pt too wide) in paragraph at lines 21--21
+[]\T1/pcr/m/n/9 #define A_OK      1    /* the couple is not deleted */[] 
+ []
+
+
+Overfull \hbox (77.56247pt too wide) in paragraph at lines 21--21
+[]\T1/pcr/m/n/9 #define A_ALLOC   (-1) /* error code from unsuccessful malloc()
+ */[] 
+ []
+
+
+Overfull \hbox (55.9625pt too wide) in paragraph at lines 21--21
+[]\T1/pcr/m/n/9 /* A global variable, aerror, keeps track of the last error */[
+] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2577.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .120 
+ []
+
+[120
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2601.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .121 
+ []
+
+[121
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2618.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .122 
+ []
+
+[122
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (136.9624pt too wide) in paragraph at lines 22--22
+[] \T1/pcr/m/n/9 printf("string ``madrid'' is associated with ``%s''\n", aread(
+a, "madrid"));[] 
+ []
+
+
+Overfull \hbox (28.96252pt too wide) in paragraph at lines 22--22
+[] \T1/pcr/m/n/9 while (s = (char*)anext(a) ) /* prints 3 associations */[] 
+ []
+
+
+Overfull \hbox (28.96252pt too wide) in paragraph at lines 22--22
+[]    \T1/pcr/m/n/9 printf("domain %s: codomain = %s\n", s, aread(a, s));[] 
+ []
+
+
+Overfull \hbox (28.96252pt too wide) in paragraph at lines 22--22
+[] \T1/pcr/m/n/9 while (s = (char*)anext(a) ) /* prints 2 associations */[] 
+ []
+
+
+Overfull \hbox (28.96252pt too wide) in paragraph at lines 22--22
+[]    \T1/pcr/m/n/9 printf("domain %s: codomain = %s\n", s, aread(a, s));[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2643.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .123 
+ []
+
+[123
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (82.96246pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 Welcome to YAUD, yet another URL database. You can perform a nu
+mber[] 
+ []
+
+
+Overfull \hbox (72.16248pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 of actions on a local database of URLs; select an action, pleas
+e![] 
+ []
+
+
+Overfull \hbox (104.56244pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 </SELECT>   # "command" can be associated to "view", "add", or 
+"search"[] 
+ []
+
+
+Overfull \hbox (66.76248pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 Please enter a brief description...  <input name=description><p
+>[] 
+ []
+
+
+Overfull \hbox (18.16254pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 If you want, tell me your name...  <input name=donator>[] 
+ []
+
+
+Overfull \hbox (99.16245pt too wide) in paragraph at lines 17--17
+[]        \T1/pcr/m/n/9 # "url", "description" and "donator" are associated to 
+strings[] 
+ []
+
+
+Overfull \hbox (126.16241pt too wide) in paragraph at lines 17--17
+[]\T1/pcr/m/n/9 Press this button to execute the command: <INPUT TYPE="submit" 
+VALUE="Go!">[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2667.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .124 
+ []
+
+[124
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2688.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .125 
+ []
+
+[125
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (12.76254pt too wide) in paragraph at lines 22--22
+[]        \T1/pcr/m/n/9 int view(ASSOC*), add(ASSOC*), search(ASSOC*);[] 
+ []
+
+
+Overfull \hbox (18.16254pt too wide) in paragraph at lines 22--22
+[]        \T1/pcr/m/n/9 awrite(b, "view", view), awrite(b, "add", add),[] 
+ []
+
+
+Overfull \hbox (61.36249pt too wide) in paragraph at lines 22--22
+[]        \T1/pcr/m/n/9 s = aread(a, "command"); /* dereference "command"... */
+[] 
+ []
+
+
+Overfull \hbox (1.96255pt too wide) in paragraph at lines 22--22
+[]        \T1/pcr/m/n/9 /* ...and what "command" is associated to */[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2714.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .126 
+ []
+
+[126
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2734.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .127 
+ []
+
+[127
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2746.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .128 
+ []
+
+[128
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (18.16254pt too wide) in paragraph at lines 5--5
+[]\T1/pcr/m/n/9 ObjAlloc_t *OA_open(size_t elem_sz, size_t s, size_t t)[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2776.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .129 
+ []
+
+[129
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2803.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .130 
+ []
+
+[130
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/tomarch.png, id=984, 559.08875pt x 268.00125pt>
+File: images/tomarch.png Graphic file (type png)
+<use images/tomarch.png>
+Package pdftex.def Info: images/tomarch.png  used on input line 9.
+(pdftex.def)             Requested size: 195.18513pt x 93.56056pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2828.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .131 
+ []
+
+[131
+
+ <./images/tomarch.png>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2842.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .132 
+ []
+
+[132
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2860.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .133 
+ []
+
+[133
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2883.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .134 
+ []
+
+[134
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2901.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .135 
+ []
+
+[135
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/tom1.png, id=1023, 397.9668pt x 251.9814pt>
+File: images/tom1.png Graphic file (type png)
+<use images/tom1.png>
+Package pdftex.def Info: images/tom1.png  used on input line 4.
+(pdftex.def)             Requested size: 250.9517pt x 158.89906pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2912.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .136 
+ []
+
+[136
+
+ <./images/tom1.png>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2931.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .137 
+ []
+
+[137
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2945.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .138 
+ []
+
+[138
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2979.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .139 
+ []
+
+[139
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3000.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .140 
+ []
+
+[140
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3029.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .141 
+ []
+
+[141
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3052.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .142 
+ []
+
+[142
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/delays-t100-a0.png, id=1075, 614.295pt x 794.97pt>
+File: images/delays-t100-a0.png Graphic file (type png)
+<use images/delays-t100-a0.png>
+Package pdftex.def Info: images/delays-t100-a0.png  used on input line 4.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3060.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .143 
+ []
+
+[143
+
+ <./images/delays-t100-a0.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3074.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .144 
+ []
+
+[144
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/delays-t100-a5000.png, id=1090, 614.295pt x 794.97pt>
+File: images/delays-t100-a5000.png Graphic file (type png)
+<use images/delays-t100-a5000.png>
+Package pdftex.def Info: images/delays-t100-a5000.png  used on input line 9.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3085.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .145 
+ []
+
+[145
+
+ <./images/delays-t100-a5000.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/delays-t100-a10000.png, id=1099, 614.295pt x 794.97pt>
+File: images/delays-t100-a10000.png Graphic file (type png)
+<use images/delays-t100-a10000.png>
+Package pdftex.def Info: images/delays-t100-a10000.png  used on input line 2.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3088.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .146 
+ []
+
+[146
+
+ <./images/delays-t100-a10000.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/delays-t100-a20000.png, id=1107, 614.295pt x 794.97pt>
+File: images/delays-t100-a20000.png Graphic file (type png)
+<use images/delays-t100-a20000.png>
+Package pdftex.def Info: images/delays-t100-a20000.png  used on input line 2.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3091.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .147 
+ []
+
+[147
+
+ <./images/delays-t100-a20000.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/cmp1.png, id=1115, 614.295pt x 794.97pt>
+File: images/cmp1.png Graphic file (type png)
+<use images/cmp1.png>
+Package pdftex.def Info: images/cmp1.png  used on input line 4.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3105.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .148 
+ []
+
+[148
+
+ <./images/cmp1.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/chaos-100.png, id=1124, 614.295pt x 794.97pt>
+File: images/chaos-100.png Graphic file (type png)
+<use images/chaos-100.png>
+Package pdftex.def Info: images/chaos-100.png  used on input line 8.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3128.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .149 
+ []
+
+[149
+
+ <./images/chaos-100.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/chaos-100-1.png, id=1132, 614.295pt x 794.97pt>
+File: images/chaos-100-1.png Graphic file (type png)
+<use images/chaos-100-1.png>
+Package pdftex.def Info: images/chaos-100-1.png  used on input line 2.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3131.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .150 
+ []
+
+[150
+
+ <./images/chaos-100-1.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/chaos-100-3.png, id=1140, 614.295pt x 794.97pt>
+File: images/chaos-100-3.png Graphic file (type png)
+<use images/chaos-100-3.png>
+Package pdftex.def Info: images/chaos-100-3.png  used on input line 3.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3139.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .151 
+ []
+
+[151
+
+ <./images/chaos-100-3.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+<images/chaos-100-5.png, id=1149, 614.295pt x 794.97pt>
+File: images/chaos-100-5.png Graphic file (type png)
+<use images/chaos-100-5.png>
+Package pdftex.def Info: images/chaos-100-5.png  used on input line 2.
+(pdftex.def)             Requested size: 195.18513pt x 252.58818pt.
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3147.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .152 
+ []
+
+[152
+
+ <./images/chaos-100-5.png (PNG copy)>]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (70.88054pt too wide) in paragraph at lines 6--19
+ [] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3175.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .153 
+ []
+
+[153
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (29.95999pt too wide) in paragraph at lines 8--14
+[][]  
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3199.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .154 
+ []
+
+[154
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3215.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .155 
+ []
+
+[155
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3241.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .156 
+ []
+
+[156
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3257.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .157 
+ []
+
+[157
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (81.16287pt too wide) in paragraph at lines 16--16
+[]\T1/pcr/m/n/10 printf("Please, type in a function of variables x and y\n");[]
+ 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3277.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .158 
+ []
+
+[158
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (33.16287pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/10 /* x and y point resp. to variables FN.x and FN.y */[] 
+ []
+
+
+Overfull \hbox (81.16287pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/10 printf("Please, type in a value for x and a value for y\n");[]
+ 
+ []
+
+
+Overfull \hbox (81.16287pt too wide) in paragraph at lines 13--13
+[]\T1/pcr/m/n/10 printf("The value of your function in %lf and %lf is %lf\n",[]
+ 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3295.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .159 
+ []
+
+[159
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 3302.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .160 
+ []
+
+[160
+
+]) (./b-adv-c2.tex
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 13.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .161 
+ []
+
+[161
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 27.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .162 
+ []
+
+[162
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 64.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .163 
+ []
+
+[163
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 89.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .164 
+ []
+
+[164
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 102.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .165 
+ []
+
+[165
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 128.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .166 
+ []
+
+[166
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (64.13043pt too wide) detected at line 19
+[] [] [] [] [] [] []
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 151.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .167 
+ []
+
+[167
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 165.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .168 
+ []
+
+[168
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 204.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .169 
+ []
+
+[169
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 225.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .170 
+ []
+
+[170
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 246.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .171 
+ []
+
+[171
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 273.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .172 
+ []
+
+[172
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 294.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .173 
+ []
+
+[173
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 320.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .174 
+ []
+
+[174
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 350.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .175 
+ []
+
+[175
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 374.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .176 
+ []
+
+[176
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .177 
+ []
+
+[177
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 425.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .178 
+ []
+
+[178
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 453.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .179 
+ []
+
+[179
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 486.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .180 
+ []
+
+[180
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 511.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .181 
+ []
+
+[181
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 541.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .182 
+ []
+
+[182
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 560.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .183 
+ []
+
+[183
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 585.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .184 
+ []
+
+[184
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 610.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .185 
+ []
+
+[185
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 633.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .186 
+ []
+
+[186
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 17--17
+[]           \T1/pcr/m/n/10 printf("Operator =- is ambiguous: ");[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 665.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .187 
+ []
+
+[187
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 684.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .188 
+ []
+
+[188
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 714.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .189 
+ []
+
+[189
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 727.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .190 
+ []
+
+[190
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 784.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .191 
+ []
+
+[191
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 799.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .192 
+ []
+
+[192
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 831.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .193 
+ []
+
+[193
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (21.16287pt too wide) in paragraph at lines 19--19
+[]              \T1/pcr/m/n/10 dig[yytext[0]-'a'][yytext[1]-'a']++;[] 
+ []
+
+
+Overfull \hbox (33.16287pt too wide) in paragraph at lines 19--19
+[]                            \T1/pcr/m/n/10 'a'+i,'a'+j, dig[i][j]);[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 853.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .194 
+ []
+
+[194
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 872.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .195 
+ []
+
+[195
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 883.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .196 
+ []
+
+[196
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 895.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .197 
+ []
+
+[197
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 904.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .198 
+ []
+
+[198
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 927.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .199 
+ []
+
+[199
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 951.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .200 
+ []
+
+[200
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 973.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .201 
+ []
+
+[201
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+Overfull \vbox (18.57306pt too high) detected at line 1005
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1005.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .202 
+ []
+
+[202
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1036.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .203 
+ []
+
+[203
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1047.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .204 
+ []
+
+[204
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1062.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .205 
+ []
+
+[205
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1073.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .206 
+ []
+
+[206
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1098.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .207 
+ []
+
+[207
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1112.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .208 
+ []
+
+[208
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1134.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .209 
+ []
+
+[209
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1152.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .210 
+ []
+
+[210
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1175.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .211 
+ []
+
+[211
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1203.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .212 
+ []
+
+[212
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1217.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .213 
+ []
+
+[213
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1244.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .214 
+ []
+
+[214
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1265.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .215 
+ []
+
+[215
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1287.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .216 
+ []
+
+[216
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1322.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .217 
+ []
+
+[217
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1346.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .218 
+ []
+
+[218
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1365.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .219 
+ []
+
+[219
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1392.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .220 
+ []
+
+[220
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 30--30
+[]\T1/pcr/m/n/10 [0-9]+  { yylval=atoi(yytext); return NUMBER; }[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1427.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .221 
+ []
+
+[221
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1442.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .222 
+ []
+
+[222
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1473.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .223 
+ []
+
+[223
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1483.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .224 
+ []
+
+[224
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (3.16287pt too wide) in paragraph at lines 12--12
+[]\T1/pcr/m/n/10 short yyssa[YYINITDEPTH]; /* the state stack */[] 
+ []
+
+
+Overfull \hbox (15.16287pt too wide) in paragraph at lines 12--12
+[]\T1/pcr/m/n/10 YYSTYPE yyvsa[YYINITDEPTH]; /* the value stack */[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1516.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .225 
+ []
+
+[225
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1539.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .226 
+ []
+
+[226
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1569.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .227 
+ []
+
+[227
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1595.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .228 
+ []
+
+[228
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1605.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .229 
+ []
+
+[229
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1635.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .230 
+ []
+
+[230
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1654.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .231 
+ []
+
+[231
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1678.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .232 
+ []
+
+[232
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1695.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .233 
+ []
+
+[233
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1713.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .234 
+ []
+
+[234
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1734.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .235 
+ []
+
+[235
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (15.16287pt too wide) in paragraph at lines 17--17
+[]  \T1/pcr/m/n/10 $accept : _sentence $end      subject : THE_DOG[] 
+ []
+
+
+Overfull \hbox (87.16287pt too wide) in paragraph at lines 17--17
+[]  \T1/pcr/m/n/10 subject  goto 2               sentence : subject verb_  (1)[
+] 
+ []
+
+
+Overfull \hbox (39.16287pt too wide) in paragraph at lines 17--17
+[]  \T1/pcr/m/n/10 .  error                      verb :  BARKS_    (3)[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1753.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .236 
+ []
+
+[236
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 10--10
+[]\T1/pcr/m/n/10 state 2                              .  reduce 3[] 
+ []
+
+
+Overfull \hbox (93.16287pt too wide) in paragraph at lines 10--10
+[]  \T1/pcr/m/n/10 .  error                           subject : THE DOG_    (2)
+[] 
+ []
+
+
+Overfull \hbox (9.16287pt too wide) in paragraph at lines 10--10
+[]  \T1/pcr/m/n/10 verb  goto 4                       .  reduce 2[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1768.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .237 
+ []
+
+[237
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 23.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 35.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 48.
+
+)
+Overfull \vbox (42.84808pt too high) detected at line 1818
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1818.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .238 
+ []
+
+[238
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 11.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 18.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 24.
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1844.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .239 
+ []
+
+[239
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 4.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 10.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 16.
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1869.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .240 
+ []
+
+[240
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1882.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .241 
+ []
+
+[241
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+Overfull \vbox (13.57306pt too high) detected at line 1924
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1924.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .242 
+ []
+
+[242
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1950.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .243 
+ []
+
+[243
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1964.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .244 
+ []
+
+[244
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 1983.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .245 
+ []
+
+[245
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2015.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .246 
+ []
+
+[246
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2043.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .247 
+ []
+
+[247
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2062.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .248 
+ []
+
+[248
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2099.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .249 
+ []
+
+[249
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2112.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .250 
+ []
+
+[250
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2142.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .251 
+ []
+
+[251
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2164.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .252 
+ []
+
+[252
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb
+Overfull \hbox (93.16287pt too wide) in paragraph at lines 10--10
+[]     \T1/pcr/m/n/10 | '-' expr   %prec   UMINUS /* same priority of UMINUS */
+[] 
+ []
+
+)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2179.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .253 
+ []
+
+[253
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2199.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .254 
+ []
+
+[254
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2229.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .255 
+ []
+
+[255
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2255.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .256 
+ []
+
+[256
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2274.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .257 
+ []
+
+[257
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2300.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .258 
+ []
+
+[258
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2322.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .259 
+ []
+
+[259
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2341.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .260 
+ []
+
+[260
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2371.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .261 
+ []
+
+[261
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2385.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .262 
+ []
+
+[262
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2416.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .263 
+ []
+
+[263
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2442.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .264 
+ []
+
+[264
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2459.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .265 
+ []
+
+[265
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2478.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .266 
+ []
+
+[266
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2496.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .267 
+ []
+
+[267
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2524.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .268 
+ []
+
+[268
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2539.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .269 
+ []
+
+[269
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2566.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .270 
+ []
+
+[270
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2598.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .271 
+ []
+
+[271
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2630.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .272 
+ []
+
+[272
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2657.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .273 
+ []
+
+[273
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2679.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .274 
+ []
+
+[274
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2689.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .275 
+ []
+
+[275
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb (./fn.l) (./fn.y))
+Overfull \vbox (3815.94812pt too high) detected at line 2706
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2706.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .276 
+ []
+
+[276
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+Overfull \vbox (247.888pt too high) detected at line 2752
+ []
+
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2752.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .277 
+ []
+
+[277
+
+]
+\openout4 = `ccourse.vrb'.
+
+ (./ccourse.vrb)
+File: ccourse-logo.pdf Graphic file (type pdf)
+<use ccourse-logo.pdf>
+Package pdftex.def Info: ccourse-logo.pdf  used on input line 2765.
+(pdftex.def)             Requested size: 56.9055pt x 72.25298pt.
+
+Overfull \hbox (2.70575pt too wide) has occurred while \output is active
+ |[][]\T1/phv/m/n/4 .278 
+ []
+
+[278
+
+])
+\tf@nav=\write6
+\openout6 = `ccourse.nav'.
+
+\tf@toc=\write7
+\openout7 = `ccourse.toc'.
+
+\tf@snm=\write8
+\openout8 = `ccourse.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+ (./ccourse.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package rerunfilecheck Info: File `ccourse.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 24057 strings out of 494590
+ 441905 string characters out of 6178347
+ 557695 words of memory out of 5000000
+ 25998 multiletter control sequences out of 15000+600000
+ 84166 words of font info for 100 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 56i,15n,64p,797b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
+xmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucr
+ro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ccourse.pdf (278 pages, 793692 bytes).
+PDF statistics:
+ 2265 PDF objects out of 2487 (max. 8388607)
+ 1925 compressed objects within 20 object streams
+ 567 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+

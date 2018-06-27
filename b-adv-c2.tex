@@ -1,0 +1,2765 @@
+%%{{{  Lex and YACC
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Lexical and Syntactical Analysis with Lex and YACC}
+The capability 
+\begin{itemize}
+\item to compose valid sentences in a given language, as well as
+\item to verify that a given string represents a valid sentence
+in a given language
+\end{itemize}
+builds upon two lower level capabilities:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+
+\begin{frame}[fragile]{Lexical and Syntactical Analysis with Lex and YACC}
+\begin{enumerate}
+\item classification: the capability of decomposing a stream
+of characters into a stream of lexical entities (words,
+punctuation, delimiters) (lexical analysis), and
+\item verification: the capability to recognize the
+syntactical correctness of a sentence, starting from a
+stream of lexical entities (syntactical analysis).
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Lexical and Syntactical Analysis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Given, for instance, the mathematical expression:
+$$ sin (a+\sqrt(0.4)) $$
+
+
+\vspace{20pt}
+
+\begin{enumerate}
+\item the first capability means translating the stream of characters
+that corresponds to the above expression, i.e.,
+
+\vspace{20pt}
+
+
+({\tt 's'}, {\tt 'i'}, {\tt 'n'}, {\tt ' '},{\tt '('}, {\tt 'a'}, ...)
+
+
+\vspace{20pt}
+
+into a stream of tokens, or syntactical atoms:
+
+
+\vspace{20pt}
+
+({\tt "sin"}, {\tt '('}, {\tt "a"}, {\tt '+'}, {\tt "sqrt"}, ...)
+
+\item the second capability is the one
+that allows us to verify the syntactical correctness of the sentence,
+given a certain ``grammar,'' i.e., in this case, the grammar of
+well-formed mathematical formulae.
+\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Lexical and Syntactical Analysis}
+
+The above mentioned capabilities are experienced by the human being
+as inherent and natural abilities, of which one has not even full
+awareness.
+
+
+\vspace{20pt}
+
+When one has to set up, e.g., an interpreter of a computer language,
+or any other software module that needs to recognize a given
+structure in its input stream, then it is useful to set up
+a hierarchical structure at the base of which there are tools
+for lexical and syntactical analysis.
+
+
+\vspace{20pt}
+
+These tools are software systems that ease the development of
+lexical and syntactical analyzers. In UNIX, for instance,
+two standard utilities are available: Lex and YACC
+(or their GNU equivalents: flex and bison!)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Lexical and Syntactical Analysis}
+
+Lex and YACC allow to speed up considerably the development
+of parsers, translators, compilers, interpreter, conversion tools.
+
+
+\vspace{20pt}
+
+They have been especially designed for combined use and for
+hosting user-defined C routines where needed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{LEX: a lexical analyzer generator}
+
+LEX may be defined as a ``tokenizator'': given a stream of
+chars, LEX performs a classification of groups of contiguous
+characters. These groups are called tokens, i.e., words and
+symbols that are \emph{atomic\/} from the viewpoint of
+syntactical analysis.
+
+
+\vspace{20pt}
+
+For instance, LEX can translate string
+$ sin (a+sqrt(0.4)) $
+in a set of couples ``(token, token \#)'', e.g., as follows:
+\begin{itemize}
+\item ``sin'', {\tt FUNCTION}
+\item ``('', {\tt '('}        
+\item and so forth.
+\end{itemize}
+
+
+\vspace{20pt}
+
+The token \# identifies the class the token belongs to.
+
+\end{frame}
+\begin{frame}[fragile]{LEX}
+LEX can be used
+\begin{itemize}
+\item either as a stand-alone tool, so to perform simple
+translations or compute statistics on the lexycal atoms,
+\item or in conjunction with a parser generator (e.g., YACC).
+\end{itemize}
+
+
+\vspace{20pt}
+
+$$ \mbox{input}
+ \stackrel{\mbox{\tiny LEX}}{\Rightarrow}
+ \mbox{tokens / errors}
+ \stackrel{\mbox{\tiny YACC}}{\Rightarrow}
+                \mbox{valid / invalid sentences}
+ \stackrel{\mbox{\tiny User code}}{\Rightarrow}
+ \mbox{user-defined actions}
+$$
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{LEX}
+LEX writes a deterministic FSA from a list of \textbf{regular expressions}
+(regex). Regardless the number of rules supplied by the user, and regardless
+their complexity, the LEX FSA breaks the input stream into tokens
+in a time that is proportional to the length of the input stream.
+
+
+\vspace{20pt}
+
+The number of rules and their complexity only influence
+\emph{the size\/} of the output source code.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Structure of a LEX program}
+The general structure of a LEX program is as follows:
+
+
+\vspace{20pt}
+
+\begin{quote}
+[ {\em Definitions\/} ]
+
+\pcpc
+
+[ {\em Rules\/} ]
+
+[ \pcpc
+
+{\em User functions\/} ]
+\end{quote}
+
+
+\vspace{20pt}
+
+{\em Definitions\/} and {\em User functions\/} can be missing.
+
+\vspace{20pt}
+
+
+Hence, the minimum size LEX program is the following one:
+
+
+\vspace{20pt}
+
+\begin{center}\pcpc\end{center}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{LEX}
+
+LEX performs its classification via a list of 
+{\bf regular expressions} ({\em regex\/}) that the user needs
+to supply via a standard language.
+
+
+\vspace{20pt}
+
+Regex's describe \emph{patterns of characters\/} to be
+located in the text. LEX reads these regex's and produces a
+FSM that recognizes those patterns.
+
+\vspace{20pt}
+
+
+FSM's are indeed the simplest conceptual tool
+with which to recognize words expressed by regex's.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+LEX uses the same regex recognizer used by most of those UNIX tools
+that do pattern matching: 
+{\tt vi}, {\tt sed}, {\tt awk}, {\tt find}, {\tt grep}, 
+for instance, adopt the same set of agreement based on the same set of
+``metacharacters'':
+
+
+\vspace{20pt}
+
+\verb! " \ [ ] ^ - ? . * + | { } $ / ( ) % < >!
+
+
+\vspace{20pt}
+
+(Python, Perl, Java, and others, adopt slightly different sets.)
+
+
+
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+
+\begin{description}
+\item{\tt "}
+        the quotation mark operator is the simplest metacharacter:
+	all the characters of a string betweeb quotation marks are
+	interpreted as plain (non-meta) characters.
+\item{\tt [ \ldots ]}
+        Squared parentheses (pair []) specify classes of characters.
+	For instance,
+        {\tt [xyz]} means:
+        ``{\em a single {\tt x}, {\tt y} or {\tt z} char}''
+
+	The hyphen sign between any two chars $a$ and $b$ means that all the
+	chars between ord($a$) and ord($b$) are specified.
+	For instance,
+        {\tt [A-Z]} means
+        ``{\em any uppercase letter\/}'', while
+        {\tt [A-Za-z]} means: ``{\em any letter\/}''.
+
+	Furthermore, \verb"[\40-\176]" for instance selects
+	a range of characters, that is, the one between
+	$octal(40)$ and $octal(176)$.
+\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{description}
+\item{\tt [\verb"^" \ldots ]} 
+Character ``{\tt \verb"^"}'' , within the squared parentheses, means
+``complementary set''.
+For instance, {\tt [\verb"^"0-9]} means
+        ``{\em any char but the digits\/}''.
+
+\item{\tt \verb"\"}
+	(Backslash) is the same as in the C language function
+	printf.
+
+\item{\tt .}
+        (Dot) means ``{\em any character but
+        {\tt '\verb"\n"'}}''.
+\end{description}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item{\tt ?} The question mark goes after optional strings of
+characters.
+For instance, {\tt ab?c} means:
+``{\em either {\tt 'ac'} or {\tt 'abc'}}''.
+
+\item{\tt *} Postfix operator ``star'' means \emph{ZERO\/} or more
+instances of a given class.
+As an example, {\tt [\verb"^"a-zA-Z]*} means ``{\em zero or more
+instances of non-alphabetic chars\/}''.
+
+\item{\tt +} Postfix operator ``plus'' means \emph{ONE\/} or more
+instances of a given class.
+For instance,
+{\tt [xyz]+} means ``{\em any non-empty string, of any size, 
+consisting of any of the characters
+{\tt 'x'}, {\tt 'y'} and {\tt 'z'}}'', such as e.g.
+{\tt xyyyyyyzz}.
+\end{description}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item{Operators {\tt ()} and {\tt \verb"|"}}. Parentheses group
+a set of characters into one object. For instance,
+in {\tt (xyz)+}, operator {\tt +} is applied to
+string {\tt xyz}. Within a group, the OR between entities
+is specified via metacharacter {\tt \verb"|"}.
+For instance, 
+
+
+\vspace{20pt}
+
+\begin{center}{\tt (ab\verb"|"cd+)?(ef)*}
+\end{center}
+
+
+\vspace{20pt}
+
+\noindent
+means ``{\em zero or more instances of string {\tt "ef"}, possibly
+preceded either by string {\tt ab} or by {\tt cd+} ({\tt c} followed
+by one or more instances of {\tt d}})''.
+\end{description}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item{\tt \verb"^":} This char, if not within square parentheses, means
+``at begin-of-file or right after a newline.''
+
+\item{\tt \verb"$":} This means ``at the end of a line''
+or ``at end-of-file'', i.e., if the following char is either
+\verb"'\n'" or {\tt EOF}.
+For instance, \verb"(riga|row)$" means ``string {\tt riga}
+or string {\tt row} followed either by \verb"\n" or by {\tt EOF}.
+
+\item{\tt /}: Infix operator slash checks whether an entity is
+followed by another one. For instance,
+{\tt a/b} means
+``character {\tt a}, only when followed by character {\tt b}''.
+Note that {\tt ab/\verb"\n"} is equivalent to {\tt ab\verb"$"}.
+\end{description}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{Metacharacters in LEX}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{description}
+\item{\tt \{\}:} Curly brackets have two meanings:
+        \begin{itemize}
+        \item When grouping two comma-separated numbers, as in
+        {\tt (xyz)\{1,5\}}, they represent a {\em multiple instance}.
+	The above example means 
+        ``{\em from one to five instances of
+        string {\tt xyz}}''.
+        \item When grouping letters, they represent the value of a
+	regex alias (see further on).
+        \end{itemize}
+
+\item{\tt \%} Character {\tt \%} is {\em not\/} a metacharacter but has a special
+meaning.
+\end{description}
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Definitions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A LEX source file may include up to three sections; the first
+one is the one including the LEX definitions. Definitions include
+a list of regex's:
+\begin{verbatim}
+letter         [a-zA-Z]
+letters        {letter}+
+\end{verbatim}
+
+
+\vspace{20pt}
+
+These are the rules:
+\begin{enumerate}
+\item At column 1, an identifier is supplied,
+\item then some blank or tab chars,
+\item and finally a regex.
+\end{enumerate}
+
+
+\vspace{20pt}
+
+The identifier becomes an alias for its regex.
+To dereference an alias one has to put curly brackets around it.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules}
+The Rules section is mainly a list of
+{\em associations\/} in the form
+        \[ r\Rightarrow a \]
+where $r$ is a regex and $a$ is a list of {\em actions},
+i.e., user defined C language statements that are executed
+when the corresponding regex is recognized.
+
+
+\vspace{20pt}
+
+For instance:
+
+\vspace{20pt}
+
+
+\begin{verbatim}
+        %%
+        begin        printf("{");
+        end          {
+                         putchar('}');
+                     }
+\end{verbatim}
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Actions}
+
+Note: when no rule is verified, a default rule is executed:
+{\tt ECHO}.
+
+
+\vspace{10pt}
+
+\noindent
+(The FSA written by LEX has a  {\tt switch} statement with a {\tt default: ECHO;}.)
+
+
+\vspace{10pt}
+
+\begin{itemize}
+\item This means that, e.g., there is no need to supply rules for
+the so called ``literal tokens,'' i.e., single characaters whose
+token number is equal to their ASCII code.
+
+\item
+To ``sift out'' some portion of the input, one needs to recognize it
+and to associate a null action to it.
+\end{itemize}
+
+
+\vspace{10pt}
+
+To remove newline characters:
+\begin{verbatim}
+        %%
+        \n        ;
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]{LEX Rules : Actions}
+
+Some ``simple transformations'' can be useful in order
+to facilitate the import of a file.
+
+
+\vspace{20pt}
+
+Some word processors, such as Word, regard paragraphs as a single line and
+separate paragraphs with \verb"\n".
+
+
+\vspace{20pt}
+
+The following LEX script converts every single  \verb"\n" into character space.
+
+\begin{verbatim}
+    %%
+    \n\n        ECHO;
+    \n          putchar(' ');
+\end{verbatim}
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Variables}
+When a regex is recognized, the corresponding string (the token)
+is copied in a 
+{\tt char*} called {\tt yytext}.
+This is true also for literal tokens.
+
+
+\vspace{20pt}
+
+This script is similar to the previous one:
+\begin{verbatim}
+    %%
+    [^\n]\n[^\n]  { putchar(yytext[0]);
+                    putchar(' ');
+                    putchar(yytext[2]);
+                  }
+\end{verbatim}
+
+
+\vspace{20pt}
+
+Action {\tt ECHO} is actually a {\tt \#define}:
+\begin{verbatim}
+        #define ECHO puts(yytext)
+\end{verbatim}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Variables}
+Variable
+{\tt int yyleng} is the number of characters of the string
+which verifies the current rule; in other words,
+\begin{center}\tt yyleng == strlen(yytext)\end{center}
+
+
+\vspace{20pt}
+
+For instance:\label{digalpoth}
+\begin{verbatim}
+%%
+[0-9]+           dig += yyleng;
+[a-zA-Z]+        alp += yyleng;
+(.|\n)           oth++;
+\end{verbatim}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Variables}
+The above program has some bugs:
+
+
+\vspace{20pt}
+
+\begin{enumerate}
+\item Variable {\tt dig} etc.
+have not been declared.
+\item No output message is provided at the end.
+\end{enumerate}
+
+
+\vspace{20pt}
+
+LEX produces a C program. No checks are done on the
+correctness of this program. It may also contain syntax errors
+in the actions (actions are simply copied as strings into
+the output program.)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Functions}
+A number of functions are available to the LEX user:
+
+
+\vspace{20pt}
+
+\begin{center}\tt yymore()\end{center}
+Next string is attached to the current value of
+{\tt yytext}.
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%%
+\"[^"]*   {
+           if (yytext[yyleng-1] == '\\')
+               yymore();
+           else
+               do_that(yytext);
+          }
+\end{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Functions}
+\begin{verbatim}
+%%
+\"[^"]*   {
+           if (yytext[yyleng-1] == '\\')
+               yymore();
+           else
+               do_that(yytext);
+          }
+\end{verbatim}
+
+\verb'        '\verb*'"he said \"hi\"."'
+
+\verb'        '\verb*'"he said \'
+
+\verb'        '\verb'          "hi\'
+
+\verb'        '\verb'              "."'
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Functions}
+
+\begin{center}\tt yyless()\end{center}
+``Sends back'' a given number of characters.
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%%
+=-[a-zA-Z] {
+           printf("Operator =- is ambiguous: ");
+           printf("not recognized.\n");
+           yyless(yyleng-2);
+           manage_assignment();
+           }
+\end{verbatim}
+
+
+\vspace{20pt}
+
+(In the early days of C, {\tt a =- b} had the same meaning of
+{\tt a -= b}).
+
+
+\vspace{20pt}
+
+{\tt yyless($x$)} pushes back onto the input $\hbox{\tt yyleng}-x$ characters.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Functions}
+
+\begin{description}\item{\tt int input()} reads the next input character.
+(Character {\tt NULL} [that is, {\tt (int)0}] is interpreted 
+as end-of-file condition)
+\item{\tt void output(char c)} writes {\tt c} onto the output stream
+\item{\tt void unput(char c)} ``pushes back'' {\tt c} into the input stream.
+\end{description}
+
+
+\vspace{20pt}
+
+The user can choose between a standard version of these functions
+or make use of his/her own functions with the same name and
+prototype.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules : Functions}
+\begin{center}\tt int yywrap(void)\end{center}\label{yywrap}
+
+
+\vspace{20pt}
+
+This system (or user-) function is called when an {\tt EOF}
+is encountered. The system version of this function returns
+{\tt 1}, which means ``end of processing.''
+The user can substitute this function with a new version
+which, if it returns {\tt 0}, let the execution
+continue until a new  {\tt EOF} is encountered. 
+
+
+\vspace{20pt}
+
+This way it is possible, e.g., to process more than one
+input file during the same run.
+
+
+\vspace{20pt}
+
+Furthermore, {\tt yywrap()} allows the user to specify
+end-of-job functions (for instance, printing of the
+output and so forth.)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{frame}
+
+\begin{frame}[fragile]{LEX Rules}
+LEX adopts two steps to select which user rule to apply:
+
+
+\vspace{20pt}
+
+\begin{enumerate}
+\item The rule that recognizes the largest string is always preferred.
+\item If more than one rule recognize largest strings, it is chosen
+      the rule the user has specified first in the LEX script.
+\end{enumerate}
+\end{frame}
+
+%\begin{frame}[fragile]{LEX Rules}
+%
+%An example follows:
+%
+%\begin{verbatim}
+%    %%
+%    integer         printf("1");
+%    [a-z]+          printf("2");
+%    (.|\n)          ;
+%\end{verbatim}
+%
+%Dato ad esempio l'input {\tt "ABC\underline{integers}XY\underline{integer}ABC"},
+%Lex produce la stringa {\tt "21"}.
+%
+%$\Leftarrow$: (motivazione)
+%
+%$\Leftarrow$: (scambio della prima rule con la seconda)
+%\end{frame}
+
+
+\begin{frame}[fragile]{LEX Rules}
+Within a same rule, LEX returns the largest possible string:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+    %%
+    \'.*\'   { yytext[0] = '[';
+               yytext[yyleng-2] = ']';
+               printf("%s",yytext);
+             }
+\end{verbatim}
+
+
+\vspace{20pt}
+
+produces a program that, once read string
+
+
+\vspace{20pt}
+
+{\tt 'hi' -said- 'how are you?'}
+
+\vspace{20pt}
+
+
+writes the following string on the output:
+
+
+\vspace{20pt}
+
+{\tt [hi' -said- 'how are you?]} 
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules}
+
+When LEX selects which rule to execute, it
+creates an ordered list of possible candidates. The one
+to be executed is the one on top. When the action includes macro
+\begin{center}\tt REJECT;\end{center}
+the following two actions take place:
+\begin{enumerate}
+\item the input string is sent back onto the input stream;
+\item the rule is removed from the list. The rule that is selected
+is therefore the new top one.
+\end{enumerate}
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules}
+\noindent
+{\tt REJECT} is useful, e.g., to count all the
+``digrams'' in a given text:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%%
+[A-Z][a-z] {   digram[yytext[0]][yytext[1]]++;
+               REJECT;
+           }
+(.|\n)     ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+each digram in the text is located by the first rule, because
+it returns a string of \emph{two\/} characters while the second
+one returns a string of just one character.
+
+
+\vspace{20pt}
+
+{\tt REJECT} writes back the two characters of the digram onto stdin
+and ``fires'' the first rule. The second one is executed.
+A character is removed from the input stream.
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX Rules}
+\label{digram1}
+\begin{verbatim}
+%%
+[a-z][a-z] {  extern int dig[26][26];
+              dig[yytext[0]-'a'][yytext[1]-'a']++;
+              REJECT; }
+(.|\n)     ;
+%%
+int dig[26][26];
+int yywrap() { int i, j;
+        for (i=0; i<26; i++)
+          for (j=0; j<26; j++)
+             if (dig[i][j])
+                printf("digram [%c%c] = %d\n",
+                            'a'+i,'a'+j, dig[i][j]);
+        return 1;
+}
+\end{verbatim}
+
+
+\end{frame}
+\begin{frame}[fragile]{Output stream in LEX}
+
+LEX allows to include in the output C source code
+any useful information (header files, declaration of
+global variables and so forth.)
+
+
+\vspace{20pt}
+
+Inclusion can be done in three ``zones'' of the output
+source file:
+\begin{enumerate}
+\item at the beginning of the file, that is, before any of the functions,
+\item at the beginning of function {\tt yylex()},
+\item at the end of the file.
+\end{enumerate}
+
+
+\end{frame}
+\begin{frame}[fragile]{Output stream in LEX}
+The three zones in the output source code correspond to the following
+zones of the LEX script:
+\begin{enumerate}
+\item In {\em Definitions},
+\item On top of {\em Rules\/}, i.e., right after the first \pcpc{};
+\item In {\em User Functions}.
+\end{enumerate}
+
+
+\end{frame}
+\begin{frame}[fragile]{Output stream in LEX}
+Case {\bf 3} is trivial. For 
+{\bf 1} and {\bf 2}, we need to distinguish the text to be processed
+by LEX from the text that needs to be copied verbatim in the output file.
+To do this, one can follow any of these ways:
+\begin{itemize}
+\item {\tt [ \verb"\"t]+.*} \ (at least a blank space or tab character
+at column zero, then the data to be flushed onto the output file.)
+\item Anything between \verb"%{" and \verb"%}".
+\end{itemize}
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX}
+\begin{enumerate}
+\item {\tt lex {\em source}.l}
+\item {\tt gcc lex.yy.c -ll}
+\item {\tt a.out < input}
+\end{enumerate}
+
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX}
+File {\tt lex.yy.c} contains function  {\tt yylex()}
+i.e., the actual scanner. Compiling
+{\tt lex.yy.c} with the system library {\tt libl.a},
+a {\tt main()} function is automatically supplied
+which calls function {\tt yylex()}.
+
+
+\vspace{20pt}
+
+The user can substitute this default {\tt main()} with
+one of their own design.
+
+
+\vspace{20pt}
+
+Doing this, one can choose between either
+automatically generating an executable or
+``piping'' LEX output to other programs---for instance,
+syntactical analyzers.
+
+
+\end{frame}
+\begin{frame}[fragile]{LEX: Selection of a scanning context}
+Writing a lexical analyser can be made easier when using
+more than one scanning context. A scanning context is a
+set of scanning rules that apply within a certain context
+and do not apply in other contexts.
+
+
+\vspace{20pt}
+
+Classical example: the presence of string
+\verb"/*" may imply the activation of a set of rules that
+are completely different from the standard rules. The
+same applies for constant strings.
+
+
+\vspace{20pt}
+
+The context switch can be done in various ways:
+\begin{itemize}
+\item flag method, \item start conditions,
+\item multiple scanners
+\end{itemize}
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX}
+\begin{center}{Selection of a scanning context: flag method}
+\end{center}
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+        int flag=0; /* starts with a tab! */
+%%
+"/*"    flag=1;
+"*/"    flag=0;
+.       |
+\n      if (flag==0) putchar(*yytext);
+\end{verbatim}
+
+
+\vspace{20pt}
+
+It is the programmer's responsibility to use the method in a coherent way.
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX}
+\begin{center}{Selection of a scanning context: start conditions/multiple scanners}
+\end{center}
+
+
+\vspace{20pt}
+
+An identifier, called ``start condition,'' is associated
+to some rules. The rule becomes part of the lexical context
+identified by the start condition. The current start condition
+can be changed at any time:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+any       (\n|.)
+%start    REMARK
+%%
+"/*"          BEGIN REMARK;
+"*/"          BEGIN 0;
+<REMARK>{any} ;
+{any}         putchar(*yytext);
+\end{verbatim}
+
+
+\vspace{20pt}
+
+Finally, one can write multipler scanners and then activate
+the one corresponding to the current context.
+
+\end{frame}
+\begin{frame}[fragile]{LEX: Definitions}
+Apart from regex aliases, in {\em Definitions\/} it is possible to specify
+``internal codes'' for any character:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%T
+1         Aa
+2         Bb
+.....
+26        Zz
+%T
+\end{verbatim}
+
+
+\vspace{20pt}
+
+This allows definitions such as
+\verb"[Dd][Oo][Uu][Bb][Ll][Ee]"
+to be avoided when the case of letters in the input is not important.
+
+
+\vspace{20pt}
+
+Note: code 0 is illegal;
+codes greater than $2^{\hbox{\tiny\tt sizeof(char)}\times8}-1$ are illegal;
+once a table has been defined, LEX only recognizes the characters in that table. 
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX: exercises}
+\begin{itemize}
+\item Write a CGI script that translates extended HTML to plain HTML
+	\begin{itemize}
+	\item Clause $<$IF$>$ $<$THEN$>$ $<$ELSE$>$ $<$FI$>$ $<$REXEC$>$ ...
+	\item $<$IF$>$REMOTE\_ADDR = 134.58.63.88$<$THEN$>$ ... $<$ELSE$>$ ... $<$FI$>$
+	\end{itemize}
+\item Write a scanner to recognize the lexical atoms of a programming language
+\end{itemize}
+
+\end{frame}
+\begin{frame}[fragile]{Practical use of LEX: exercises}
+\begin{itemize}
+\item Write a simple ``translator'' for a Pascal-like pre-processor
+\begin{verbatim}
+BEGIN {
+END   }
+EQ    ==
+IF    if(
+THEN  )
+END;  }
+END.  }
+\end{verbatim}
+\end{itemize}
+
+\end{frame}
+\begin{frame}[fragile]{LEX: bibliography}
+
+\begin{enumerate}
+\item \label{lex} M.E Lesk, E. Schmidt, {\em LEX - a lexical  analyzer
+generator\/},  in  ConvexOs  Tutorial  Papers,  CCC,  1993.  
+\item \verb"http://www.combo.org/lex_yacc_page/" : the lex \& yacc page
+\end{enumerate}
+%%}}}
+
+%%{{{  YACC
+\end{frame}
+\begin{frame}[fragile]{Syntactical Analysis with YACC}
+\begin{center}
+YACC : {\em Yet Another Compiler-Compiler\/}
+\end{center}
+YACC has been defined by its authors as a system for describing
+the input structure of a program.
+
+
+\vspace{20pt}
+
+The YACC programmer is required to supply:
+\begin{enumerate}
+\item the syntactical structure of the input 
+\item C code to be executed when the syntax rules are recognized.
+\end{enumerate}
+
+
+\vspace{20pt}
+
+On the basis of these data, YACC writes a C program with a
+parsing routine.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The parsing routine calls a lower level routine, called {\tt yylex()},
+in order to get the next lexical atoms in the input stream.
+
+
+\vspace{20pt}
+
+YACC works with grammars of type
+{\bf LALR(1)}, plus rules to solve ambiguities.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC}
+
+The general structure of a YACC script
+strictly follows the one of a LEX script:
+
+
+\vspace{20pt}
+
+\begin{quote}
+[ {\em Definitions\/} ]
+
+\pcpc
+
+{\em Rules \& Actions}
+
+[ \pcpc
+
+{\em User functions\/} ]
+\end{quote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC}
+In particular, the structure of {\em Rules \& Actions\/}
+is similar to the corresponding section of a LEX script:
+it includes a set of \emph{grammar rules}, plus  \emph{actions\/}
+that are associated to each rule.
+
+
+\vspace{20pt}
+
+Each time a rule is recognized, the corresponding actions are executed.
+
+
+\vspace{20pt}
+
+Actions may return values and use the values returned by other actions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC}
+
+YACC rules have the following structure:
+\begin{center}\em lhs {\tt :} rhs {\tt ;}
+\end{center}
+
+
+\vspace{20pt}
+
+where {\em lhs\/} is a non-terminal symbol and {\em rhs\/}
+is a sequence of 
+\underline{zero} or more terminal or non-terminal symbols,
+``literals,'' and actions.
+
+
+\vspace{20pt}
+
+Identifiers for terminal and non-terminal symbols follow the
+rules of the C language, with the addition that character
+{\tt '.'} is considered as a letter.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A literal is a constant character defined as follows:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+literal : QUOTE char QUOTE 
+        | QUOTE BACKSLASH char QUOTE
+        | QUOTE BACKSLASH od od od QUOTE
+         ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+\noindent
+(being {\tt QUOTE} character \verb'"' and {\tt od} an octal digit.)
+
+
+\vspace{20pt}
+
+Character ``\verb"|"'' is an OR. It is used when more than one rule
+has the same  {\em lhs}.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: user definitions}
+As with LEX, the parentheses
+ \verb"%{" and \verb"%}" allow to include in the output of YACC
+ any C source code. This code is global with respect to the
+ parser function and to the user functions.
+
+
+\vspace{20pt}
+
+YACC uses a number of identifiers starting with
+``{\tt yy}'' for internal purposes. This prefix must be avoided.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: token declaration}
+Lexical atoms (the tokens) must be explicitly declared in 
+{\em Definitions}. This is done, for instance,
+by writing one or more lines
+such as the following one:
+
+
+\vspace{20pt}
+
+\begin{center}\em
+\verb"%token" nome${}_1$  nome${}_2$  $\dots$
+\end{center}
+
+
+\vspace{20pt}
+
+All the symbols that have not declared as tokens are
+implicitly declared as non-terminals (NTs). 
+
+\vspace{20pt}
+
+
+Note: each NT must be the {\em lhs\/} of at least one rule.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{frame}
+\begin{frame}[fragile]{YACC: specification of the start symbol}
+The declaration of the start symbol of the grammar may be done as follows:
+
+\vspace{20pt}
+
+
+\begin{center}\em
+\verb"%start" name
+\end{center}
+
+
+\vspace{20pt}
+
+in {\em Declarations}. If this specification is missing,
+it is assumed that the start symbol is the
+{\em lhs\/} of the first grammar rule specified by the user.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{frame}
+\begin{frame}[fragile]{YACC: the endmarker token}
+A special token marks the end-of-input. This is called
+\endmarker{} in YACC lingo.
+
+
+\vspace{20pt}
+
+If the tokens encountered between the start of processing
+and the \endmarker{} (not including the latter)
+{\em verify\/} the start symbol, then
+the parsers successfully stops processing after having read
+the \endmarker.
+
+
+\vspace{20pt}
+
+Reading the \endmarker{} before the start symbol is verified
+leads to an error.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{frame}
+\begin{frame}[fragile]{YACC: actions}
+
+Within each rule, the programmer can specify some \emph{actions\/}
+to be executed each time that rule is recognized while analysing
+the input stream.
+
+
+\vspace{20pt}
+
+Actions may return values and use the values returned by other actions.
+
+
+\vspace{20pt}
+
+Also the tokens returned by {\tt yylex()} may have values.
+
+
+\vspace{20pt}
+
+Actions are a number of C statements between curly brackets. Each
+action can return a value by setting variable
+\verb"$$". For instance:
+
+
+\vspace{20pt}
+
+\verb"   { action(); $$=1; }"
+
+\vspace{20pt}
+
+returns 1.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: actions}
+Also the rules may return values. This value is either
+the value of the first component or the value of variable  \verb"$$".
+For instance:
+
+
+\vspace{20pt}
+
+\verb" A : B;"
+
+
+\vspace{20pt}
+
+is equivalent to
+
+
+\vspace{20pt}
+
+\verb" A : B { $$ = $1; } ;"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{frame}
+
+\begin{frame}[fragile]{YACC: actions}
+The following example shows how it is possible
+to use the values returned by previous rules.
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+    expr    :   '('   expr   ')'
+                {    $$ = $2;   }
+            ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+In other words, \$$i$  is the value returned by  RHS$[i]$.
+\end{frame}
+
+\begin{frame}[fragile]{YACC: actions}
+An example follows:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+expr :   expr    infix_op     expr
+         {  $$ = node( $2, $1, $3);  }
+     ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+For instance, function {\tt node()} may allocate an object and return
+its address. This is used when building syntax analysis trees.
+
+\vspace{20pt}
+
+
+Note: values returned by rules and actions are integers by default.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{frame}
+\begin{frame}[fragile]{YACC: function {\tt yylex()}}
+Function {\tt yylex()} returns an integer---the token number.
+This number is either a literal (when in $[0,255]$) or
+a symbolic constant $s>256$ that describes the lexical ``class''
+the recognized string belongs to. For instance,
+{\tt NUMBER}. 
+
+
+\vspace{20pt}
+
+Function {\tt yylex()} also returns the actual string that
+was found in the input. That string is kept in variable
+
+
+\vspace{20pt}
+
+\begin{center}\tt extern {\bf X} yylval;\end{center}
+
+
+\vspace{20pt}
+
+where {\bf X} is either {\tt int} or can be defined by the user.
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%%
+[0-9]+  { yylval=atoi(yytext); return NUMBER; }
+\end{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: token numbers}
+The choice of which integers to use with token can be done
+\begin{description}
+\item{\em automatically\/} by YACC, which associates the integers
+from 257 one by one to the tokens that have been declared with
+the \verb"%token" keyword.
+\item{\em implicitly\/} for literals, to which is associated
+the ASCII code.
+\item{\em explicitly\/} by the YACC programmer, who can
+associate an integer greater than 0 after the name of a token or a literal
+in section \emph{Declarations}.
+\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+
+\begin{frame}[fragile]{YACC: token numbers}
+Token numbers must be different.
+
+
+\vspace{20pt}
+
+When executing {\tt yacc} with the {\tt -d} option, a header file
+is created, called
+{\tt y.tab.h}, which contains all the token numbers.
+This file can be included, e.g., in the LEX script as follows:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%{
+#include "y.tab.h"
+%}
+\end{verbatim}
+
+
+\vspace{20pt}
+
+Note: the C program produced by LEX can be either compiled separately
+or even included in the YACC output program by specifing in
+\emph{User functions\/} the following statement:
+\begin{verbatim}
+#include "y.tab.c"
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]{YACC: choice of the lexical analizer}
+
+LEX is usually ``\emph{the\/}'' lexical analizer to be used with
+YACC. Under specific circumnstances, though, LEX may be
+less suited than an ad-hoc lexical analizer. For instance, when
+recognizing a Fortran grammar, it may be difficult with LEX
+to express conditions that depend, e.g., on the column
+where a given command starts.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+YACC produces a FSM with two parallel stacks representing
+states and values:
+
+\vspace{20pt}
+
+
+\begin{verbatim}
+short	yyssa[YYINITDEPTH]; /* the state stack */
+YYSTYPE yyvsa[YYINITDEPTH]; /* the value stack */
+#define YYPOPSTACK   (yyvsp--, yyssp--)
+\end{verbatim}
+
+
+\vspace{20pt}
+
+The parser can read and store the next input token
+[this is called
+look ahead token (\lat) in YACC lingo.]
+
+
+\vspace{20pt}
+
+The state stack,
+$S$, is a vector of integers. The current state is always
+TOP$(S)$.
+
+
+\vspace{20pt}
+
+Initially \lat $=\Lambda$, {\tt sp=0}, TOP$(S)$=0.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+The FSM mainly makes use of four basic actions:
+\shift, \reduce, \accept{} ed \error.
+(A fifth action, \goto, is actually a \shift).
+
+
+\vspace{20pt}
+
+The main loop of YACC is in two basic steps:
+
+
+\vspace{20pt}
+
+\begin{enumerate}
+\item On the basis of TOP$(S)$:
+
+      is  \lat{} required? Yes: read \lat{} (call {\tt yylex()} and so forth.)
+\item On the basis of both TOP$(S)$ and \lat:
+
+      choose next action.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+YACC uses a symbolic language to describe the structure of the output FSM.
+Running YACC with the option
+
+$$\hbox{\tt -v}$$
+
+a file called {\tt y.output} is produced. This file contains
+a number of statements in the form:
+
+
+\vspace{20pt}
+
+\begin{center}\em
+symbol  opcode  operand
+\end{center}
+
+or
+\begin{center}\em
+.  opcode  operand
+\end{center}
+
+
+\vspace{20pt}
+
+where {\em opcode} is {\tt shift} or {\tt reduce} and so forth,
+and {\em operand} is an integer that represents either a
+\emph{state\/} or a
+\emph{grammar rule}.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+Reading
+{\tt y.output} is a way to ease up the debugging of a YACC program.
+Now it is described how to interpret {\tt y.output}.
+
+
+\vspace{20pt}
+
+\begin{center}\fbox{\shift}\end{center}
+\begin{center}\em  symbol    {\tt shift}  new-state \end{center}
+
+
+\vspace{20pt}
+
+Within the current state:
+
+
+\vspace{20pt}
+
+\begin{itemize}
+\item if \lat $=\Lambda$, read(\lat).
+\item if \lat={\em symbol}, push({\em new-state\/}, {\tt yylval}).
+\item \lat{} $\leftarrow\Lambda$
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+
+Push and pop are executed in parallel on the two stacks.
+
+
+\vspace{20pt}
+
+``{\tt .}'' means ``any symbol''.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+
+\shift{} makes the stacks grow. The dual action is
+
+
+\vspace{20pt}
+
+\begin{center}\fbox{\reduce}\end{center}
+\begin{center}\em  {\tt .}   {\tt reduce}  rule \end{center}
+
+
+\vspace{20pt}
+
+\reduce{} comes into play the moment the parser has finished
+the scan of an
+{\em rhs\/} and needs to replace it with the non-terminal that is
+{\em lhs\/} in the corresponding rule.
+
+
+\vspace{20pt}
+
+Usually \reduce{} is unconditioned, though it may also take the form
+\begin{center}\em  symbol   {\tt reduce}  rule \end{center}
+
+
+\vspace{20pt}
+
+Rule is an integer identifying a given rule.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithms: reduction algorithm}
+\begin{itemize}
+\item the action corresponding to the rule is executed;
+\item {\tt for (i=0; i< $\nu$({\em rhs}); i++) pop();}
+\item TOP$(S)$ (the so-called ``{\em uncovered state\/}'') is inspected
+\item ...when a command like this:
+
+\[ \hbox{\tt{\em lhs\/} goto {\em x}} \]
+is found, the following command is executed:
+\[ \hbox{\tt push({\em x})}. \]
+\end{itemize}
+
+
+\vspace{20pt}
+
+\goto{} differs from \shift{} in that it does not
+erase the \lat.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithms: reduction algorithm}
+\reduce{} purges the states corresponding to the {\em rhs\/}
+and lets the YACC FSM behave as if it had encountered
+symbol {\em lhs}.
+
+
+\vspace{20pt}
+
+As a special case, void rules such as
+$$\verb"A : ;"$$
+mean: 
+
+
+\vspace{20pt}
+
+\begin{itemize}
+\item do not execute any pop();
+\item inspect the current state TOP$(S)$\ldots
+\item \ldots looking for an instruction such as
+
+\verb" A goto" $x$
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithms: reduction algorithm}
+
+When a rule is encountered, right before executing a  \reduce{},
+the action associated with that rule is executed.
+
+
+\vspace{20pt}
+
+This action has access to all the values of its components
+by means of variables \verb"$1", \verb"$2" and so forth.
+
+
+\vspace{20pt}
+
+These numbers represent displacements within the value stack.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+\begin{center}\fbox{\accept}\end{center}
+\begin{center}\tt
+     if (\lat{} == \endmarker) return OK;
+\end{center}
+
+
+\vspace{20pt}
+
+i.e., if the entire input has been inspected and it verifies
+the rules, then conclude with success.
+
+\begin{center}\fbox{\error}\end{center}
+If in the uncovered state there is no valid next state,
+and if  \lat{} is not equal to \endmarker, an error
+condition is raised.
+\end{frame}
+
+\begin{frame}[fragile]{YACC algorithm}
+The above five basic actions are the key to understand file
+{\tt y.output}.
+A (classic) example follows:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%token  BARKS   DOG    THE
+%%
+sentence:       subject    verb
+        ;
+subject :       THE    DOG
+        ;
+verb    :       BARKS
+        ;
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{YACC: the y.output file}
+\begin{verbatim}
+state 0                       state 3
+  $accept : _sentence $end      subject : THE_DOG
+
+  THE  shift 3                  DOG   shift  6
+  .  error                      .  error
+
+  sentence  goto 1            state 4
+  subject  goto 2               sentence : subject verb_  (1)
+
+state 1                         .  reduce 1
+  $accept :  sentence_$end 
+
+  $end  accept                state 5
+  .  error                      verb :  BARKS_    (3)
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[fragile]{YACC: the y.output file}
+\begin{verbatim}
+state 2                              .  reduce 3
+  sentence :  subject_verb 
+
+  BARKS  shift 5                   state 6
+  .  error                           subject : THE DOG_    (2)
+
+  verb  goto 4                       .  reduce 2
+\end{verbatim}
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: the y.output file}
+
+The underscore character 
+(``\verb"_"'') marks the border between what the parser
+has ``seen'' already and what is yet to come.
+
+
+\vspace{20pt}
+
+\$accept is equivalent to {\tt sentence} followed by the
+\endmarker.
+
+
+\vspace{20pt}
+
+Now let's suppose we have the following as our input string: {\tt "THE DOG BARKS"}.
+
+
+\vspace{20pt}
+
+Initially, $S$ only contains state 0
+and \lat{} is undefinito:
+($S=(0), \lat=\Lambda$).
+
+
+\vspace{20pt}
+
+{\bf State 0}: a \shift{} requires reading the
+\lat:  (\lat={\tt THE}).
+
+
+\vspace{20pt}
+
+Action {\tt THE \shift\ 3} brings the system to state 3 and
+erase \lat: ($S=(0,3), \lat=\Lambda$).
+
+
+\vspace{20pt}
+
+{\bf State 3}: same as above:
+(\lat={\tt DOG}).
+
+
+\vspace{20pt}
+
+Action
+{\tt DOG \shift\ 6} is executed:
+($S=(0,3,6), \lat=\Lambda$).
+
+\end{frame}
+\begin{frame}[fragile]{YACC: the y.output file}
+
+{\bf State 6}: unconditioned reduction via rule 2
+($S=(0),\lat=\Lambda$, lhs={\tt subject}):
+two {\tt pop()}'s remove states 6 and 3 and ``uncover'' state 0.
+
+
+\vspace{20pt}
+
+{\bf State 0}: a \goto{} brings to state 2:
+($S=(0,2), \lat=\Lambda$)
+
+
+\vspace{20pt}
+
+{\bf State 2}: \lat{} is read and
+{\tt BARKS \shift\ 5} is executed
+($S=(0,2,5), \lat=\Lambda$).
+
+
+\vspace{20pt}
+
+{\bf State 5}: by unconditioned reduction, state 5 is purged:
+($S=(0,2),\lat=\Lambda$, lhs={\tt verb}).
+
+\end{frame}
+\begin{frame}[fragile]{YACC: the y.output file}
+
+{\bf State 2}: a \goto{} brings to 
+state 4: ($S=(0,2,4), \lat=\Lambda$).
+
+
+\vspace{20pt}
+
+{\bf State 4}: reduction by rule 1:
+($S=(0),\lat=\Lambda$, lhs={\tt sentence})
+
+
+\vspace{20pt}
+
+{\bf State 0}: a \goto{}  brings to state 1:
+($S=(0,1), \lat=\Lambda$).
+
+
+\vspace{20pt}
+
+{\bf State 1}: reading the \endmarker{} brings to \accept.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: the y.output file}
+As an exercise, verify the behaviour of the parser
+when reading invalid input strings, e.g.,
+{\tt THE DOG DOG}, {\tt THE DOG BARKS THE}, and so forth.
+
+
+\vspace{20pt}
+
+Some minutes spent on the interpretation of
+{\tt y.output} can save hours of debugging time.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+A YACC rule is said to be an ambiguous rule if there exists
+an input string to which two or more different structures
+can be associated.
+
+
+\vspace{20pt}
+
+For instance, given
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+  expr  :  expr '-' expr ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+and given input
+``$a-b-c$'', two possible structures (i.e., interpretations)
+exist:
+
+
+\vspace{20pt}
+
+%\[
+\begin{eqnarray}
+(a-b)-c \\
+a-(b-c)
+\end{eqnarray}
+%\]
+
+
+\vspace{20pt}
+
+The first is called {\em left association}, the second
+{\em right association}.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+YACC detects those ambiguities. In YACC lingo, they are called
+``{\em shift/reduce conflicts\/}'' and
+``{\em reduce/reduce\/} conflicts''.
+
+
+\vspace{20pt}
+
+Let us suppose we are in the following situation:
+\begin{center}\tt expr - expr{\bf \_} - expr\end{center}
+At this point the parser must arbitrarily choose
+between:
+\begin{enumerate}
+\item a \reduce{}, which brings to
+{\tt expr{\bf \_} - expr}
+
+followed by an other \reduce,
+\item a \shift{}, which brings to
+{\tt expr - expr - expr{\bf \_}} 
+
+and finally to two \reduce{}'s.
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+As it is clear from the example, reduction implies  left association,
+while a \shift{} implies a right association.
+
+
+\vspace{20pt}
+
+Ambiguities are called {\sc shift/reduce conflicts}.
+It is also possible that YACC cannot choose between two or more
+reductions, which is called
+a {\sc reduce/reduce conflict}.
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Conflicts of type $s/r$ and $r/r$ are not considered as {\em errors\/} but
+rather as warnings. YACC goes on producing its parser choosing
+what to do on the basis of the following rules:
+
+
+\vspace{20pt}
+
+\label{disamb}
+\begin{enumerate}
+\item in case of $s/r$ conflict, execute a \shift;
+\item in case of $r/r$ conflict, it is chosen the \reduce{}
+      that the user specified first in the YACC script.
+\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+An other example:
+\begin{verbatim}
+stat : IF '(' cond ')' stat
+     | IF '(' cond ')' stat
+          ELSE stat
+     ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+When the input is like follows:
+
+
+\vspace{20pt}
+
+\begin{center}\tt
+if ($c_1$) if ($c_2$) $S_1$ else $S_2$
+\end{center}
+
+
+\vspace{20pt}
+
+the parser needs to choose between two different
+interpretations.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Let us consider the following situation:
+
+
+\vspace{20pt}
+
+{\tt if ($c_1$) if ($c_2$) $S_1${\bf \_} else $S_2$}
+
+
+\vspace{20pt}
+
+At this point,
+
+
+\vspace{20pt}
+
+\begin{itemize}
+\item  a \reduce{} can take place, in which case
+{\tt else} matches with the first {\tt if},
+\item  a \shift{} can take place. This is the correct interpretation
+e.g. in C.
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Some arithmetical operators have their own associativity conventions,
+and by agreement there are priorities between them.
+Therefore a method is required in order to set a priority
+among operators and to choose beforehand the type
+of associativity that is required.
+
+
+\vspace{20pt}
+
+%Per ``precedenza'' si intende il potere ``attrattivo'',
+%la ``forza gravitazionale'' di un operatore rispetto ad altri ``oggetti''
+%vicini.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+The kind of associativity of an operator
+can be defined in YACC by the three directives:
+
+
+\vspace{20pt}
+
+\verb" %left  %right %nonassoc "
+
+
+\vspace{20pt}
+
+They also represent an alternative way to declare tokens
+and literals with respect to \verb"%token".
+For instance,
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+  %right  '='
+  %left   '-'  '+'
+\end{verbatim}
+choose right association for the assignment operator
+
+
+\vspace{20pt}
+
+(that is, $a=b=c$ means $a=(b=c)$)
+
+
+\vspace{20pt}
+
+and the left association for \verb"'+'" and \verb"'-'".
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Each row defines a priority level. The earlier the specification
+appears in the source file, the lower its priority:
+
+
+\vspace{20pt}
+
+\verb"    " {\tt '='} $\prec$ ({\tt '+'}, {\tt '-'}) $\prec$ $\cdots$
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+
+For instance,
+\[ a = b = c*d-e-f/g; \]
+is interpreted as
+\[ a = (b = (((c*d)-e)-(f/g))); \]
+
+
+\vspace{20pt}
+
+Keyword \verb"%nonassoc" specifies that a certain
+operator must {\em not\/} be applied more than a single time.
+For instance, in Fortran the following expression 
+
+
+\vspace{20pt}
+
+\verb"     A .LT. B .LT. C"
+
+
+\vspace{20pt}
+
+is not valid. \verb"%nonassoc" tokens catch these conditions.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Case exist in which a same sign, for instance {\tt '-'},
+has two different meanings and priorities:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+expr : expr '=' expr
+     | expr '*' expr
+     | expr '-' expr
+     | '-' expr
+\end{verbatim}
+
+
+\vspace{20pt}
+
+Unary ``minus'' has greater priority than that of diadic ``minus''.
+In this cases one can make use of a fictious token and operator  \verb"%prec":
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+\begin{verbatim}
+%left '+' '-'
+%left '*' '/'
+%left UMINUS
+%%
+expr : expr '-' expr
+     |   ....
+     | '-' expr   %prec   UMINUS /* same priority of UMINUS */
+\end{verbatim}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+
+Operator priorities cast priorities among the rules.
+
+
+\vspace{20pt}
+
+We define the priority of a rule as either the priority of the
+last token/literal in its {\em rhs} or the priority
+specified with \verb"%prec".
+
+
+\vspace{20pt}
+
+We can now summarize the rules concerning the conflicts:
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: associativity, priorities, ambiguities}
+Two properties come into play when solving an
+$s/r$ or an $r/r$ conflict: priority and associativity.
+
+
+\vspace{20pt}
+
+\begin{enumerate}
+\item of the current rule, and 
+\item of the token currently being read.
+\end{enumerate}
+
+
+\vspace{20pt}
+
+\begin{itemize}
+\item if 1. {\bf or} 2. do not have a priority / associativity,
+then the default rules are executed (shift vs. reduce, order
+among reduces) and \underline{a warning is issued};
+\item if 1. {\bf and} 2. have a priority / associativity,
+the we select the conflict on the basis of the priority
+and, when priority coincides, on the basis of associativity.
+\underline{No warning is issued}.
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+
+In general, error management is not a trivial task.
+When some inconsistency appears during the elaboration
+it is important to provide the user with a valuable
+assistance.
+
+
+\vspace{20pt}
+
+Choosing to stop processing at the first
+error, or to loose control and report many fictious errors
+triggered by a first one, are not good choices from the
+user viewpoint.
+
+
+\vspace{20pt}
+
+What is needed is to be able to detect the next
+consistent state (if any) and to continue processing from that
+point on. This way, e.g., further syntax errors can be reported.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+In order to perform non-trivial error management, YACC
+defines the token called
+
+\vspace{20pt}
+
+
+\begin{center}\fbox{\tt error}\end{center}
+
+
+\vspace{20pt}
+
+which can be used in any rule as a marker for possible places
+where we expect some error to show up. In these places we can
+place some code for error management.
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+The parser executes a number of 
+{\tt pop()}'s from the stack of states until it gets out of the
+error condition. At this point, \lat{} is equal to the error token,
+which means that rule is satisfied and the corresponding action
+is executed.
+
+
+\vspace{20pt}
+
+At the end of error management, \lat{} is set to the value of the
+token that introduced the error condition.
+\label{clearlat}
+
+
+\vspace{20pt}
+
+If there's no {\tt error} token in a rule in error, the execution
+is aborted.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+
+The standard function for error management is as follows:
+the parser looks for the first three legal token instances
+and then starts back processing from the first of these.
+
+
+\vspace{20pt}
+
+This context loss may lead to inconsistencies: if, e.g.,
+the three valid tokens are not at the beginning of a rule,
+the parser may take a wrong path that could result
+in weird errors.
+
+%int f()
+%$\underbrace{\hbox{\tt [}}_{\hbox{\small errore}}$
+%\overbrace{\hbox{\tt int b;}^{\hbox{3 token corretti}}
+%$\underbrace{\hbox{\tt \}}_{\hbox{\small errore fittizio}}$
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+Errors of this type may be due to rules such as:
+\begin{center}\tt stat : error ;\end{center}
+
+
+\vspace{20pt}
+
+Better rules take the form, e.g., of 
+\begin{center}\tt stat : error ';' ;\end{center}
+
+
+\vspace{20pt}
+
+In this case we synchronize the parser with the beginning
+of a new statement.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+The following macro:
+
+
+\vspace{20pt}
+
+\begin{center}{\tt yyerrok;}\end{center}
+
+
+\vspace{20pt}
+
+tells YACC to cancel the current error condition.
+This is useful when doing interactive processing, e.g., like
+follows:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+input : error '\n'
+        { yyerrok;
+          puts("? Redo from start.\n");
+        } 
+        input
+        { $$ = $4; }
+      ;
+\end{verbatim}
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: error management}
+As already said, \lat{} is normally set to the value of the
+token that triggered the error. It is also possible to
+clear the \lat{} as follows:
+
+
+\vspace{20pt}
+
+\begin{center}\tt yyclearin;\end{center}
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: output}
+YACC produces the source file {\tt y.tab.c}
+or {\em filename}{\tt \_tab.c}). This file mainly contains
+function
+
+
+\vspace{20pt}
+
+\begin{center}\tt int yyparse()\end{center}
+
+
+\vspace{20pt}
+
+To each call of function
+{\tt yyparse()} corrispond one or more call to function
+{\tt yylex()}.
+
+
+\vspace{20pt}
+
+When {\tt yyparse() == 1}, the parser has found an error.
+
+
+\vspace{20pt}
+
+When {\tt yyparse() == 0}, the parser has executed \accept.
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: User functions}
+The user needs to supply two functions, e.g.,
+after the second  ``\verb"%%"'':
+{\tt yyerror(char*)} and {\tt main()}.
+
+
+\vspace{20pt}
+
+These functions may also be very simple:
+
+\begin{verbatim}
+   #include <stdio.h>
+   main() { return yyparse(); }
+
+   yyerror(char*s) {
+     fprintf(stderr,  "%s\n", s);
+     /* or write line number, or... */
+   }    
+\end{verbatim}
+
+
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: Special functions and variables}
+\begin{center}\tt yyerror(), yychar, yydebug\end{center}
+The following variable contains the token number of the \lat{}
+the moment the error took place:
+\begin{center}
+{\tt yychar}
+\end{center}
+
+
+\vspace{20pt}
+
+This is an information that may be returned to the user, e.g.,
+with {\tt yyerror()}.
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: Special functions and variables}
+\begin{center}\tt yyerror(), yychar, yydebug\end{center}
+Variabile 
+\begin{center}
+{\tt int yydebug;}
+\end{center}
+is normally 0. When this is not true, YACC prints a verbose description
+of the decision it took during its analysis:
+
+\begin{verbatim}
+  if (yydebug)
+    fprintf(stderr, "Shifting \
+ token %d (%s), ", yychar, 
+ yytname[yychar1]);
+\end{verbatim}
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: Rules of style}
+Kernighan's rules:
+\begin{itemize}
+\item Use uppercase letters for tokens, lowercase letters for non terminals
+\item Write rules and actions on different lines
+\item Group all the rules sharing a same {\em lhs\/} by means of operator
+``\verb"|"''
+\item At end-of-rule, write the closing ``{\tt ;}'' at the same column of
+``\verb":"'' and ``\verb"|"''
+\item Indent {\em rhs\/} by two tabs, actions by three tabs.
+\end{itemize}
+
+
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: optimal performance}
+The program produced by YACC is a pushdown automaton.
+This matches particularly well with 
+\underline{left recursion}. This means that it is much better
+to use rules of the form:
+
+
+\vspace{20pt}
+
+\verb"    nt  :  nt  etc ; "
+
+\vspace{20pt}
+
+
+with respect to those of the form:
+
+\vspace{20pt}
+
+
+\verb"    nt  :  etc  nt ; "
+
+
+\vspace{20pt}
+
+The latter ones force YACC to perform a large quantity of \shift{}'s that
+may even lead to a stack overflow condition.
+
+\end{frame}
+\begin{frame}[fragile]{YACC: optimal performance}
+Hence the following rules are preferable:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+list_id  : id
+         | list_id  ','  id
+         ;
+\end{verbatim}
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: technicalities}
+Let us consider the following YACC rule:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+seq   :  /*  NOTHING */
+          { init_seq(); }
+      |    seq   item
+          { manage_new_item($2); }
+      ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+Function {\tt init\_seq()} is called
+\underline{just once}, right before processing the first {\tt item},
+while instruction {\tt manage\ldots} is executed at each new
+{\tt item}.
+
+
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: return values}
+The value stack of YACC is by default based on integers\label{ytc}.
+
+
+\vspace{20pt}
+
+This user can choose any different type.
+
+
+\vspace{20pt}
+
+That stack is organized as a vector of {\tt union}'s.
+The programmer can declare such {\tt union} and associate the name of its members
+with the tokens and non-terminals that return a value.
+
+
+\vspace{20pt}
+
+When the user does declare the {\tt union}, the following string
+is attached to any reference like
+\verb"$$" or \verb"$"$i$:
+
+
+\vspace{20pt}
+
+\begin{center}
+\verb"."{\em field-name}
+\end{center}
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: return values}
+Example:
+
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+   %union {
+      char  *String;
+      double Real;
+      int    Integer;
+   }
+\end{verbatim}
+
+
+\vspace{20pt}
+
+An equivalent way to shape this union is by defining explicitly type
+{\tt YYSTYPE}:
+
+\begin{verbatim}
+typedef union {
+      char  *String;
+      double Real;
+      int    Integer;
+   } YYSTYPE;
+\end{verbatim}
+
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: return values}
+
+One can associate a field-name to a token:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%left   <Integer>   '+'  '-'
+%right  <Real>      '='
+\end{verbatim}
+
+
+\vspace{20pt}
+
+One can associate a field-name to a non-terminal:
+
+
+\vspace{20pt}
+
+\begin{verbatim}
+%type   <String>   expr
+%type   <Real>     number
+\end{verbatim}
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: return values}
+
+One can associate a field-name to an action:
+ 
+
+\vspace{20pt}
+
+\begin{verbatim}
+ expr : '(' strexp ')'
+          { $<Real>$ = atof( $<String>2 );
+          }
+      ;
+\end{verbatim}
+
+
+\vspace{20pt}
+
+\noindent
+i.e.,  ``\verb"$<"'', followed by a field-name, followed by  ``\verb">$"''
+
+
+\end{frame}
+\begin{frame}[fragile]{YACC: bibliography}
+
+\begin{enumerate}
+\item \label{yacc} S. C. Johnson, Yacc: Yet Another Compiler Compiler, Computing Science Technical Report No. 32, 1975, Bell Laboratories, Murray Hill, NJ
+07974.
+\item T. Mason, D. Brown, {\em lex \& yacc\/}, 2nd edition. O'Reilly and Associates, inc. 2012.
+\item \verb"http://www.combo.org/lex_yacc_page/" : the lex \& yacc page
+\end{enumerate}
+
+\end{frame}
+\begin{frame}[fragile]{LEX and YACC: an example}
+Lex and YACC sources for the FN class
+(\url{https://github.com/Eidonko/FN})
+
+
+\vspace{20pt}
+
+\begin{center}LEX source (excerpt) \end{center}
+\cprogfile{fn.l}
+
+
+\vspace{20pt}
+
+\begin{center}YACC source (excerpt) \end{center}
+\cprogfile{fn.y}
+
+\end{frame}
+\begin{frame}[fragile]{An excerpt of y.output}
+\begin{verbatim}
+   0  $accept : line $end
+   1  line : expr '\n'
+   2  $$1 :
+   3  line : error '\n' $$1 line
+
+   4  expr : '(' expr ')'
+   5       | expr '^' expr
+   6       | expr '*' expr
+   7       | expr '/' expr
+   8       | expr '+' expr
+   9       | expr '-' expr
+  10       | '-' expr
+  11       | SIN expr
+  12       | COS expr
+  13       | TAN expr
+  14       | INDEX
+
+state 0
+        $accept : . line $end  (0)
+
+        error  shift 1
+        INDEX  shift 2
+        '-'  shift 3
+        SIN  shift 4
+        COS  shift 5
+        TAN  shift 6
+        '('  shift 7
+        .  error
+
+        line  goto 8
+        expr  goto 9
+
+state 29
+        line : error '\n' $$1 line .  (3)
+
+        .  reduce 3
+
+
+25 terminals, 4 nonterminals
+15 grammar rules, 30 states
+\end{verbatim}
+%%}}}
+
+\end{frame}
+
+\begin{frame}[fragile]{Closings}
+\begin{center}
+\Large For more information:\\
+contact me via Eidon at tutanota.com !
+\end{center}
+
+\vspace{20pt}
+
+With thanks to Professor Till Tantau, whose
+``beamerexample-lecture'' I modified here to create this presentation!
+
+\end{frame}
